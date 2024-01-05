@@ -9,6 +9,20 @@ function EventForm({ method, event }) {
     navigate('..');
   }
 
+  // const handleSubmit = (event) => {
+  //   event.preventDefault(); // Prevents the default form submission behavior
+  //   const formData = new FormData(event.target);
+
+  //   // Log the form data
+  //   formData.forEach((value, key) => {
+  //     console.log(`${key}: ${value}`);
+  //   });
+
+  //   // If you want to navigate or perform any other actions, you can do it here
+  //   // For example:
+  //   // navigate('..');
+  // };
+
   return (
     <Form method='post' className={classes.form}>
       <p>
